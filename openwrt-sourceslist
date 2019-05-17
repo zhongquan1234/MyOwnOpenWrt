@@ -1,0 +1,6 @@
+src/gz openwrt_core http://mirrors6.tuna.tsinghua.edu.cn/lede/releases/18.06.2/targets/ramips/mt7620/packages
+src/gz openwrt_base http://mirrors6.tuna.tsinghua.edu.cn/lede/releases/18.06.2/packages/mipsel_24kc/base
+src/gz openwrt_luci http:/mirrors6.tuna.tsinghua.edu.cn/lede/releases/18.06.2/packages/mipsel_24kc/luci
+src/gz openwrt_packages http://mirrors6.tuna.tsinghua.edu.cn/lede/releases/18.06.2/packages/mipsel_24kc/packages
+src/gz openwrt_routing http://mirrors6.tuna.tsinghua.edu.cn/lede/releases/18.06.2/packages/mipsel_24kc/routing
+src/gz openwrt_telephony http://mirrors6.tuna.tsinghua.edu.cn/lede/releases/18.06.2/packages/mipsel_24kc/telephony
