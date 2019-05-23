@@ -1,0 +1,5 @@
+deb http://mirrors6.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch main contrib non-free rpi
+deb-src http://mirrors6.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch main contrib non-free rpi
+.d
+deb http://mirrors6.tuna.tsinghua.edu.cn/raspberrypi/ stretch main ui
+deb-src http://mirrors6.tuna.tsinghua.edu.cn/raspberrypi/ stretch main ui
