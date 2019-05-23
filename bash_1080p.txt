@@ -1,0 +1,2 @@
+bash /home/magic/Desktop/display_1080p.sh
+
