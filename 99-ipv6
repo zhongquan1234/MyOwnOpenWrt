@@ -1,0 +1,16 @@
+'''
+###   in /etc/hotplug.d/iface/
+
+##root@OpenWrt:~# vi /etc/hotplug.d/99-ipv6
+'''
+
+
+#!/bin/sh
+[ "$ACTION" = ifup ] || exit 0
+# ...... IPv6 WAN ............UCI...
+iface_uci=wan6
+# ...... IPv6 WAN ............Linux...
+iface_linux=eth0
+[ -z "$iface_uci" -o "$INTERFACE" = "$iface_uci" ] || exit 0
+ip -6 route add `ip -6 route | grep $iface_linux | grep via | sed -e 's/from [^ ]* //' | sed -e '2,$d'`
+logger -t IPv6 "Add IPv6 default route."
