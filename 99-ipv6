@@ -1,6 +1,6 @@
 '''
 ###   in /etc/hotplug.d/iface/
-
+ip6tables -t nat -A POSTROUTING -o eth1 -j MASQUERADE
 ##root@OpenWrt:~# vi /etc/hotplug.d/99-ipv6
 '''
 
