@@ -1,3 +1,4 @@
 A1 oracle（ubuntu18）：cd /lib/systemd/system
 A1 UBuntu20： cd /usr/lib/systemd/system/ 和上面那个都可以
 openwrt：cd /etc/init.d/
+windows：
