@@ -1,0 +1,14 @@
+sudo apt-get install --reinstall ubuntu-desktop
+sudo apt-get install unity
+
+vi /etc/xrdp/xrdp.ini
+tcp_send_buffer_bytes=4194304
+tcp_recv_buffer_bytes=6291456
+
+vi /etc/sysctl.conf
+net.core.rmem_max = 12582912
+net.core.wmem_max = 8388608
+
+sudo sysctl -p
+
+sudo systemctl restart xrdp
