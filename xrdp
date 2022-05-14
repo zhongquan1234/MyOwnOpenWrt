@@ -12,3 +12,4 @@ net.core.wmem_max = 8388608
 sudo sysctl -p
 
 sudo systemctl restart xrdp
+dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
